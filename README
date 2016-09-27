@@ -1,20 +1,7 @@
 A shell script that creates a prescribed directory structure and performs some other actions executable from the shell.
 
-//Shell Script//
 
-mkdir shellby
-touch shellby/README fizz.txt buzz.txt deleteme.txt 
-echo fizzbuzz > shellby/README
-mkdir shellby/texts
-mv *.txt shellby/texts
-rm shellby/texts/deleteme.txt
-mkdir shellby/texts/news
-curl  http://www.nytimes.com/ > shellby/texts/news/times.txt
-grep -n "America" shellby/texts/news/times.txt > shellby/national.txt
-
-
-
-//Result ==> Prescribed Directory Structure//
+Result ==> Shellby Directory Structure
 
 .
 └── shellby
@@ -27,3 +14,6 @@ grep -n "America" shellby/texts/news/times.txt > shellby/national.txt
             └── times.txt
 
 3 directories, 5 files
+
+
+Shell Script ==> Click on shellbyScript.sh below to view the shell script used to create the shellby directory structure above.
