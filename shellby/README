@@ -1,12 +1,1 @@
 fizzbuzz
-.
-└── shellby
-    ├── README
-    ├── national.txt
-    └── texts
-        ├── buzz.txt
-        ├── fizz.txt
-        └── news
-            └── times.txt
-
-3 directories, 5 files
